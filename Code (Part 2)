@@ -1,1 +1,9 @@
-# This is the future destination of Code Part 2. The code will appear when completed. Complete processes are usually slow due to working factor.
+city = input("Which city do you live in?")
+hobby = input("What is your favorite hobby?")
+pet = input("Do you have any pets? (yes/no)")
+food = input("What is your favorite food?")
+
+print("You live in " + city)
+print("Your favorite hobby is " + hobby)
+print("Do you have any pets? " + pet)
+print("Your favorite food is " + food)
