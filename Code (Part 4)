@@ -1,1 +1,9 @@
+age = input("What is your age?")
+job = input("What categlory of job is desired?")
+expected income = input("")
+online = input("What is your favorite food?")
 
+print("You are  " + age" years old)
+print("Your desired job is" + hobby)
+print(" " + pet)
+print("Your favorite food is " + food)
