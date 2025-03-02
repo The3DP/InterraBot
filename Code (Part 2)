@@ -1,8 +1,8 @@
-
+# 
 age = input("What is your age?")
 job_category = input("What category of job are you interested in? (e.g., Healthcare, Technology, Education, Finance, Arts, etc.) ")
 expected_income = input("What is your expected income? ")
-favorite_food = input("What is your favorite food? ")
+years_ = input("How many years of experience do you have? ")
 
 # Define job categories with specific jobs
 if job_category.lower() == "healthcare":
@@ -22,4 +22,4 @@ print("You are " + age + " years old.")
 print("Your desired job category is: " + job_category)
 print("Some jobs in the " + job_category + " category are: " + ", ".join(jobs))
 print("Your expected income is: " + expected_income)
-print("Your favorite food is: " + favorite_food)
+print(": " + favorite_years)
