@@ -1,8 +1,18 @@
-name: base
+name: base  # Name of the Conda environment (you can change this)
 channels:
   - defaults
+  - conda-forge  # Additional channels for packages
+
 dependencies:
-  - python=3.10
-  - flake8
-  - pytest
-  # Add any additional dependencies here
+  - python=3.10  # Specify the Python version
+  - flake8       # For linting
+  - pytest       # For testing
+  # Add other dependencies required in your project, e.g.:
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - any_other_package
+  # You can also specify pip dependencies if necessary:
+  - pip:
+      - some-pip-only-package
