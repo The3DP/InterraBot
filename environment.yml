@@ -1,4 +1,4 @@
-name: base  # Name of the Conda environment (you can change this)
+name: Python Package using Conda  # Name of the Conda environment (you can change this)
 channels:
   - defaults
   - conda-forge  # Additional channels for packages
