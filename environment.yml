@@ -1,18 +1,16 @@
-name: Python Package using Conda  # Name of the Conda environment (you can change this)
+name: Python Package using Conda
 channels:
   - defaults
-  - conda-forge  # Additional channels for packages
-
+  - conda-forge
+  - bioconda  # Additional channel if needed
 dependencies:
-  - python=3.10  # Specify the Python version
-  - flake8       # For linting
-  - pytest       # For testing
-  # Add other dependencies required in your project, e.g.:
-  - numpy
-  - pandas
+  - python=3.10
+  - flake8
+  - pytest
+  - numpy=1.21
+  - pandas=1.3.3
   - scikit-learn
   - matplotlib
-  - any_other_package
-  # You can also specify pip dependencies if necessary:
+  # Add other dependencies as needed
   - pip:
       - some-pip-only-package
